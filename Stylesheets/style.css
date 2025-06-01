@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Shohid-Tahmid";
+    src: url(../Fonts/Li\ Shohid\ Tahmid\ Tamin\ Unicode.ttf);
+}
+@font-face {
+    font-family: "Shohid-Shafkat";
+    src: url(../Fonts/Li\ Shohid\ Shafkat\ Samir\ Unicode.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Poppins", system-ui;
+
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    /* height: 100vh; */
+    background-image: linear-gradient( 360deg, #b8e7fa, #e6e6fa);
+}
+
+nav {
+    background-color: #ffffff;
+    /* position: sticky;
+    top: 0; */
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+    max-width: 87.5%;
+    margin: auto;
+}
+
+#logo-text h1 {
+  font-family: "Poppins", system-ui;
+  font-size: 34px;
+  font-style: bolder;
+}
+
+#different-text-1 {
+    color: #ffa500;
+}
+
+#nav-button button {
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+
+    padding: 17px 24px;
+
+    background-image: linear-gradient( 80deg, #ffa500, #ffd447);
+
+    color: #0d1321;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner {
+    width: 87.5%;
+    height: auto;
+    margin: 100px auto 100px auto;
+    padding: 40px 60px;
+
+    border-radius: 30px;
+    background-color: #e6edf9;
+    text-align: center;
+}
+
+.banner img {
+    height: 240px;
+    width: 240px;
+}
+
+#goal-text {
+    margin-bottom: 32px;
+}
+#goal-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#goal-text p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+.common-button {
+    width: 300px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+
+    padding: 17px 24px;
+
+    background-image: linear-gradient( 90deg, #ffa500, #ffd447);
+
+    color: #0d1321;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.common-button:hover,
+#nav-button button:hover {
+    cursor: pointer;
+    background-image: linear-gradient( 90deg, #ffa500, #ffd447);
+    border: #ffa500 solid 2px;
+    box-shadow: 0px 4px 50px rgba(251, 192, 84, 0.801);
+    color: whitesmoke;
+}
+
+.bangla-text{
+    font-family: "Shohid-Shafkat", "Shohid-Tahmid", system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0d1321;
+    line-height: 26px;
+}
+
+
+/* Footer stars here  */
+footer {
+    width: 100%;
+    padding: 32px 150px;
+    background-color: #e6edf9;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 16px;
+}
