@@ -6,12 +6,21 @@
     font-family: "Shohid-Shafkat";
     src: url(../Fonts/Li\ Shohid\ Shafkat\ Samir\ Unicode.ttf);
 }
+
+.bangla-text{
+    font-family: "Shohid-Shafkat", "Shohid-Tahmid", system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0d1321;
+    line-height: 26px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
-    font-family: "Poppins", system-ui;
+    font-family: "Shohid-Shafkat", "Poppins", system-ui;
 
 }
 
@@ -84,17 +93,18 @@ nav {
 #goal-text {
     margin-bottom: 32px;
 }
+
 #goal-text h1 {
     font-size: 40px;
     font-weight: bold;
     margin-top: 20px;
 }
+
 #goal-text p {
     font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
 }
-
 
 .common-button {
     width: 300px;
@@ -122,14 +132,145 @@ nav {
     color: whitesmoke;
 }
 
-.bangla-text{
-    font-family: "Shohid-Shafkat", "Shohid-Tahmid", system-ui;
-    font-size: 16px;
-    font-weight: 500;
-    color: #0d1321;
-    line-height: 26px;
+.container-box-heading {
+    width: 87.5%;
+    margin: auto auto;
+    text-align: center;
 }
 
+.container-box-heading h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container-box-heading p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0d1321;
+    margin-bottom: 48px;
+}
+
+.container-box-content {
+    width: 87.5%;
+    padding: 48px;
+    margin: 50px auto 100px auto;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    background-color: #e6edf9;
+    border-radius: 16px;
+}
+
+#developer-image {
+    width: 388px;
+    height: auto;
+}
+
+#developer-text {
+    width: auto;
+    padding: 0px 40px;
+    text-align: left;
+}
+
+#developer-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+#developer-text p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0d1321;
+    margin-bottom: 32px;
+}
+
+#developer-text button {
+    margin-top: 20px;
+}
+
+#container-youtube-video {
+    width: 1100px;
+    text-align: center;
+    margin: 50px auto 100px auto;
+    padding: 32px;
+
+    border: 1px solid #0d132160;
+    border-radius: 16px;
+}
+
+.article-container-3 {
+    width: 87.5%;
+    margin: 100px auto;
+}
+
+#target-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;;
+}
+
+.target-card {
+    width: 30%;
+    height: auto;
+    padding: 40px 50px;
+    border-radius: 30px;
+
+    background-image: linear-gradient( 360deg, #b8e7fa, #e6e6fa);
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 50px #00000025;
+
+    text-align: start;
+}
+
+.target-card img {
+    width: 64px;
+    height: 64px;
+    
+}
+
+.target-card h3 {
+    font-size: 50px;
+    /* font-weight: 600; */
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+.target-card p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2f2b29;
+}
+
+.uncommon-button {
+    margin-top: 30px;
+    width: auto;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+    
+    padding: 0px 24px;
+    
+    background-image: linear-gradient( 90deg, #ffa500, #ffd447);
+    
+    color: #0d1321;
+    
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    
+    cursor: pointer;
+}
+
+.uncommon-button:hover {
+    background-image: linear-gradient( 90deg, #ffa500, #ffd447);
+    border: #ffa500 solid 2px;
+    box-shadow: 0px 4px 30px rgba(251, 192, 84, 0.801);
+    color: whitesmoke;
+}
 
 /* Footer stars here  */
 footer {
