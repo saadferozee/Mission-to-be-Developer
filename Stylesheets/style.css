@@ -72,6 +72,9 @@ nav {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+
+    box-shadow: 0px 2px 15px #0d132170;
+    transition: all 0.3s ease-in-out;
 }
 
 .banner {
@@ -111,16 +114,19 @@ nav {
     height: 64px;
     border: none;
     border-radius: 10px;
-
+    
     padding: 17px 24px;
-
+    
     background-image: linear-gradient( 90deg, #ffa500, #ffd447);
-
+    
     color: #0d1321;
-
+    
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    
+    box-shadow: 0px 2px 15px #0d132170;
+    transition: all 0.3s ease-in-out;
 }
 
 .common-button:hover,
@@ -263,6 +269,9 @@ nav {
     font-weight: 700;
     
     cursor: pointer;
+
+    box-shadow: 0px 1px 10px #0d132170;
+    transition: all 0.3s ease-in-out;
 }
 
 .uncommon-button:hover {
