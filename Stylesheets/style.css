@@ -215,7 +215,7 @@ nav {
     border-radius: 16px;
 }
 
-#container-youtube-video div iframe {
+#youtube-video-box iframe {
     border-radius: 12px;
 }
 
@@ -306,5 +306,6 @@ footer {
     display: flex;
     /* flex-direction: column; */
     gap: 16px;
+    text-align: center;
 }
 
